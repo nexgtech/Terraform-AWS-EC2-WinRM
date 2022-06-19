@@ -1,0 +1,8 @@
+aws_access_key = ""
+aws_secret_key = ""
+aws_region = ""
+vpc_id = ""
+subnet_id = ""
+instance_username = ""
+instance_password = ""
+instance_type = "t2.micro"
