@@ -72,7 +72,7 @@ resource "aws_instance" "windows_server" {
         password = var.instance_password
         https = true
         insecure = true
-        timeout = "4m"
+        timeout = "13m"
     }
 
     provisioner "file" {

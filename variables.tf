@@ -41,10 +41,12 @@ variable "instance_name" {
 }
 
 variable "instance_username" {
+  type = string
   default = "winadmin1"
 }
 
 variable "instance_password" {
+  type = string
   default = ""
 }
 
